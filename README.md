@@ -1,7 +1,7 @@
 ( [English Readme](README.md) | [Brazilian Portuguese Readme](README.ptbr.md) )
 # Emote Card
 
-Application made following DIO's "Creating a Business Card List App using Kotlin", modified to be used as a journal where the user can associate an emote to each entry with the addition of the color picker library: https://github.com/kristiyanP/colorpicker 
+Application made following DIO's "Creating a Business Card List App using Kotlin", modified to be used as a journal where the user can associate an emote to each entry + addition of the color picker library: https://github.com/kristiyanP/colorpicker 
 
 ## Functionalities: 
 
