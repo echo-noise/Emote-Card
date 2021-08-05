@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Emote Card</string>
+    <string name="label_card_title">Titulo</string>
+    <string name="label_main_title">Lista de Cartões</string>
+    <string name="label_add_card_title">Adicionar Cartão</string>
+    <string name="button_color_picker">Escolher cor...</string>
+    <string name="label_card_content">Conteúdo</string>
+    <string name="label_btn_save">Salvar</string>
+    <string name="label_select_emote">Selecione o seu emote:</string>
+    <string name="label_show_success">Entrada adicionada!</string>
+    <string name="label_share_to">Compartilhar</string>
+</resources>
