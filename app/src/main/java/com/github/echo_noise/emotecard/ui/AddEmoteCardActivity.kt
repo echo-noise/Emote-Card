@@ -39,7 +39,9 @@ class AddEmoteCardActivity : AppCompatActivity() {
 
                 override fun onCancel() {}
             }
+
             colorPicker.setOnChooseColorListener(listener).setTitle("Escolher cor").show()
+            colorPicker.negativeButton.text = getString(R.string.button_cancel)
         }
 
         // save button listener

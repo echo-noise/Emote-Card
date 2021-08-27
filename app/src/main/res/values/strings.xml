@@ -9,4 +9,5 @@
     <string name="label_select_emote">Selecione o seu emote:</string>
     <string name="label_show_success">Entrada adicionada!</string>
     <string name="label_share_to">Compartilhar</string>
+    <string name="button_cancel">Cancelar</string>
 </resources>
