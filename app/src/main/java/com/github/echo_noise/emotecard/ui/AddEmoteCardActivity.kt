@@ -50,9 +50,9 @@ class AddEmoteCardActivity : AppCompatActivity() {
                 bgColor = bgcolor,
                 icon = when (binding.rgEmotes.checkedRadioButtonId) {
                              binding.rbHappy.id -> R.drawable.ic_emote_happy_48
-                             binding.rbVeryHappy.id -> R.drawable.ic_emote_very_happy_48
+                             binding.rbVeryHappy.id -> R.drawable.ic_emote_veryhappy_48
                              binding.rbSad.id -> R.drawable.ic_emote_sad_48
-                             binding.rbVerySad.id -> R.drawable.ic_emote_very_sad_48
+                             binding.rbVerySad.id -> R.drawable.ic_emote_verysad_48
                              else -> R.drawable.ic_emote_neutral_48
                 }
             )

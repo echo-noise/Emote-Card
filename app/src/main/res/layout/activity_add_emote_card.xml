@@ -55,43 +55,47 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
-            android:button="@drawable/ic_emote_very_sad_48" />
+            android:background="@drawable/ic_emote_verysad_48"
+            android:button="@drawable/ic_outline_circle_48" />
 
         <RadioButton
             android:id="@+id/rb_sad"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="16dp"
             android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
             android:layout_marginEnd="8dp"
-            android:button="@drawable/ic_emote_sad_48"
-            />
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/ic_emote_sad_48"
+            android:button="@drawable/ic_outline_circle_48" />
 
         <RadioButton
             android:id="@+id/rb_neutral"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
-            android:button="@drawable/ic_emote_neutral_48"
+            android:background="@drawable/ic_emote_neutral_48"
+            android:button="@drawable/ic_outline_circle_48"
             android:checked="true" />
 
         <RadioButton
             android:id="@+id/rb_happy"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="16dp"
             android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
             android:layout_marginEnd="8dp"
-            android:button="@drawable/ic_emote_happy_48" />
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/ic_emote_happy_48"
+            android:button="@drawable/ic_outline_circle_48" />
 
         <RadioButton
             android:id="@+id/rb_very_happy"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
-            android:button="@drawable/ic_emote_very_happy_48" />
+            android:background="@drawable/ic_emote_veryhappy_48"
+            android:button="@drawable/ic_outline_circle_48" />
 
     </RadioGroup>
 
