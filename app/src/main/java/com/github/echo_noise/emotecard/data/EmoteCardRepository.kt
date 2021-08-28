@@ -14,4 +14,5 @@ class EmoteCardRepository(private val dao: EmoteCardDao) {
     }
 
     fun getAll() = dao.getAll()
+    fun deleteCard(emoteCard: EmoteCard) = dao.deleteCard(emoteCard)
 }

@@ -6,9 +6,11 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.core.app.ActivityCompat
+import androidx.recyclerview.widget.ItemTouchHelper
 import com.github.echo_noise.emotecard.App
 import com.github.echo_noise.emotecard.databinding.ActivityMainBinding
 import com.github.echo_noise.emotecard.util.Image
+import com.github.echo_noise.emotecard.util.TouchHelper
 
 class MainActivity : AppCompatActivity() {
     private val binding by lazy {ActivityMainBinding.inflate(layoutInflater)}
@@ -22,8 +24,14 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         setUpPermissions()
         binding.rvCardList.adapter = adapter
+        setUpRecyclerView()
         getAllEmoteCards()
         setListeners()
+    }
+
+    private fun setUpRecyclerView() {
+        val touchHelper = ItemTouchHelper(TouchHelper.TouchHelper(mainViewModel, adapter))
+        touchHelper.attachToRecyclerView(binding.rvCardList)
     }
 
     private fun setUpPermissions() {

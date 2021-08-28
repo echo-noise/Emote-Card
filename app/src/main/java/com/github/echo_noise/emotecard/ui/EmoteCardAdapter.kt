@@ -25,18 +25,23 @@ class EmoteCardAdapter :
         holder.bind(getItem(position))
     }
 
-    inner class ViewHolder(
-        private val binding: ItemEmoteCardBinding
+    public override fun getItem(position: Int): EmoteCard {
+        return super.getItem(position)
+    }
+
+    inner class ViewHolder( private val binding: ItemEmoteCardBinding
     ) : RecyclerView.ViewHolder(binding.root) {
         fun bind(item: EmoteCard) {
             binding.tvCardTitle.text = item.title
             binding.tvCardContent.text = item.content
             binding.ivCardIcon.setImageResource(item.icon)
             binding.mcvContent.setCardBackgroundColor(item.bgColor)
-            binding.mcvContent.setOnClickListener {
+            binding.mcvContent.setOnLongClickListener {
                 listenerShare(it)
+                return@setOnLongClickListener true
             }
         }
+
     }
 }
 

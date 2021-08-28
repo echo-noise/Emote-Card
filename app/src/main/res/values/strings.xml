@@ -10,4 +10,6 @@
     <string name="label_show_success">Entrada adicionada!</string>
     <string name="label_share_to">Compartilhar</string>
     <string name="button_cancel">Cancelar</string>
+    <string name="label_deleteEntry">Deseja deletar cartão?</string>
+    <string name="btn_delete">Excluir</string>
 </resources>

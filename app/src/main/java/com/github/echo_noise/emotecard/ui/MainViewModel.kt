@@ -15,6 +15,10 @@ class MainViewModel(private val emoteCardRepository: EmoteCardRepository) : View
     fun getAll(): LiveData<List<EmoteCard>> {
         return emoteCardRepository.getAll()
     }
+
+    fun deleteCard(emoteCard: EmoteCard) {
+        return emoteCardRepository.deleteCard(emoteCard)
+    }
 }
 
 class MainViewModelFactory(private val repository: EmoteCardRepository) : ViewModelProvider.Factory {
